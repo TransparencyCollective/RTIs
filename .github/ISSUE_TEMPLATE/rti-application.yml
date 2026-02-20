@@ -28,7 +28,7 @@ body:
     validations:
       required: true
 
-  - type: input   <-- INSERT HERE
+  - type: input   
     id: due_date
     attributes:
       label: Deadline (30 Days)
