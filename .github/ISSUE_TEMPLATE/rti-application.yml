@@ -89,7 +89,7 @@ body:
     id: district
     attributes:
       label: District
-      placeholder: e.g. Thrissur
+      placeholder: e.g. Sikkim
     validations:
       required: false
 
@@ -106,7 +106,7 @@ body:
     attributes:
       label: PIO Contact Info
       description: Name, Email, and Phone Number.
-      placeholder: "Name: Mr. Suresh Kumar\nPhone: +91 98765 43210"
+      placeholder: "Name: Mrs. Jane Doe ()\nPhone: +91 98765 43210 ()\nEmail: jane@cic.gov"
     validations:
       required: false
 
