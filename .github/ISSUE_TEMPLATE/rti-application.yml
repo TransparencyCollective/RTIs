@@ -1,0 +1,49 @@
+name: New RTI Application
+description: Use this form to track a new RTI request.
+title: "RTI: [Brief Subject]"
+labels: ["02 Filed"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ### RTI Tracking Form
+        Please fill in the details below to keep the collective data consistent.
+  - type: input
+    id: reg_no
+    attributes:
+      label: Registration Number
+      placeholder: e.g., KL/TR/2026/001
+    validations:
+      required: true
+  - type: input
+    id: pio_name
+    attributes:
+      label: Public Information Officer (PIO)
+      placeholder: e.g., Assistant Secretary, Thrissur Corp.
+  - type: dropdown
+    id: district
+    attributes:
+      label: District
+      options:
+        - Thrissur
+        - Palakkad
+        - Ernakulam
+        - Trivandrum
+        - Other
+  - type: input
+    id: department
+    attributes:
+      label: Government Department
+      placeholder: e.g., Local Self Government, Health, Education
+  - type: textarea
+    id: request_summary
+    attributes:
+      label: Summary of Information Requested
+      description: What specific documents or answers are you seeking?
+    validations:
+      required: true
+  - type: input
+    id: cost
+    attributes:
+      label: Application Fee / Costs (₹)
+      placeholder: e.g., 10
