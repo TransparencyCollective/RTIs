@@ -16,7 +16,7 @@ body:
     attributes:
       label: Information Requested
       description: What specific documents or answers are you seeking?
-      placeholder: 1. Copy of the attendance register...
+      placeholder: 
     validations:
       required: true
 
@@ -106,7 +106,7 @@ body:
     attributes:
       label: PIO Contact Info
       description: Name, Email, and Phone Number.
-      placeholder: "Name: Mrs. Jane Doe ()\nPhone: +91 98765 43210 ()\nEmail: jane@cic.gov"
+      placeholder: "Name: Mrs. Jane Doe (Assistant Director)\nPhone: +91 98765 43210 \nEmail: jane@cic.gov"
     validations:
       required: false
 
