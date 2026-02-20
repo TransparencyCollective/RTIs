@@ -1,49 +1,110 @@
 name: New RTI Application
-description: Use this form to track a new RTI request.
-title: "RTI: [Brief Subject]"
+description: File a new Right to Information request
+title: "[RTI]: "
 labels: ["02 Filed"]
 body:
   - type: markdown
     attributes:
       value: |
         ### RTI Tracking Form
-        Please fill in the details below to keep the collective data consistent.
-  - type: input
-    id: reg_no
+        Fill in the details below to track this RTI application.
+
+  - type: dropdown
+    id: jurisdiction
     attributes:
-      label: Registration Number
-      placeholder: e.g., KL/TR/2026/001
+      label: Jurisdiction
+      description: Select the government body you are filing with.
+      options:
+        - Central Government
+        - Andhra Pradesh
+        - Arunachal Pradesh
+        - Assam
+        - Bihar
+        - Chhattisgarh
+        - Goa
+        - Gujarat
+        - Haryana
+        - Himachal Pradesh
+        - Jharkhand
+        - Karnataka
+        - Kerala
+        - Madhya Pradesh
+        - Maharashtra
+        - Manipur
+        - Meghalaya
+        - Mizoram
+        - Nagaland
+        - Odisha
+        - Punjab
+        - Rajasthan
+        - Sikkim
+        - Tamil Nadu
+        - Telangana
+        - Tripura
+        - Uttar Pradesh
+        - Uttarakhand
+        - West Bengal
+        - Andaman and Nicobar Islands
+        - Chandigarh
+        - Dadra and Nagar Haveli and Daman and Diu
+        - Delhi
+        - Jammu and Kashmir
+        - Ladakh
+        - Lakshadweep
+        - Puducherry
     validations:
       required: true
-  - type: input
-    id: pio_name
-    attributes:
-      label: Public Information Officer (PIO)
-      placeholder: e.g., Assistant Secretary, Thrissur Corp.
+
   - type: dropdown
+    id: mode
+    attributes:
+      label: Mode of Filing
+      options:
+        - Online (RTI Portal)
+        - Offline (Direct Submission)
+        - Speed Post
+        - Registered Post
+    validations:
+      required: true
+
+  - type: input
+    id: filing_date
+    attributes:
+      label: Date of Filing
+      placeholder: DD-MM-YYYY
+    validations:
+      required: true
+
+  - type: input
     id: district
     attributes:
       label: District
-      options:
-        - Thrissur
-        - Palakkad
-        - Ernakulam
-        - Trivandrum
-        - Other
+      placeholder: e.g., Thrissur, Palakkad, New Delhi
+    validations:
+      required: false
+
   - type: input
     id: department
     attributes:
-      label: Government Department
-      placeholder: e.g., Local Self Government, Health, Education
-  - type: textarea
-    id: request_summary
-    attributes:
-      label: Summary of Information Requested
-      description: What specific documents or answers are you seeking?
+      label: Department / Public Authority
+      placeholder: e.g., Department of Revenue, Municipal Corporation
     validations:
       required: true
-  - type: input
-    id: cost
+
+  - type: textarea
+    id: info_requested
     attributes:
-      label: Application Fee / Costs (₹)
-      placeholder: e.g., 10
+      label: Information Requested
+      description: Briefly list the questions or documents asked for.
+      placeholder: 1. Copy of the attendance register... 2. Details of funds allocated...
+    validations:
+      required: true
+
+  - type: input
+    id: expenses
+    attributes:
+      label: Expenses (₹)
+      placeholder: e.g., 10, 50
+      description: Total cost including IPO, court fee stamps, and postage.
+    validations:
+      required: false
