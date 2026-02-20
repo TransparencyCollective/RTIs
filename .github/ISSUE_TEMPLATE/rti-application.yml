@@ -28,6 +28,14 @@ body:
     validations:
       required: true
 
+  - type: input   <-- INSERT HERE
+    id: due_date
+    attributes:
+      label: Deadline (30 Days)
+      placeholder: DD-MM-YYYY
+    validations:
+      required: false
+
   - type: dropdown
     id: mode
     attributes:
