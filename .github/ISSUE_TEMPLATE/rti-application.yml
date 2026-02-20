@@ -1,6 +1,6 @@
 name: New RTI Application
 description: File a new Right to Information request
-title: "[RTI]: "
+title: ""
 labels: ["02 Filed"]
 body:
   - type: input
