@@ -1,13 +1,19 @@
 name: New RTI Application
 description: File a new Right to Information request
-
+title: ""
 labels: ["02 Filed"]
 body:
+  - type: markdown
+    attributes:
+      value: |
+        ## 📝 RTI Application Details
+        Use this form to track a new request.
+        
   - type: input
     id: rti_id
     attributes:
       label: RTI Registration ID
-      placeholder: e.g. RTI/2026/001
+      placeholder: e.g. RTI/2026/001 (Leave blank if pending)
     validations:
       required: false
 
@@ -15,24 +21,33 @@ body:
     id: info_requested
     attributes:
       label: Information Requested
-      description: What specific documents or answers are you seeking?
-      placeholder: 
+      description: Briefly list the questions or documents you are asking for.
+      placeholder: |
+        1. Copy of the attendance register...
+        2. Details of funds allocated...
     validations:
       required: true
 
+  - type: markdown
+    attributes:
+      value: |
+        ---
+        ### 📅 Timeline
+        
   - type: input
     id: filing_date
     attributes:
       label: Date of Filing
-      placeholder: DD-MM-YYYY
+      placeholder: DD-MM-YYYY (e.g. 21-02-2026)
     validations:
       required: true
 
-  - type: input   
+  - type: input
     id: due_date
     attributes:
-      label: Deadline (30 Days)
-      placeholder: DD-MM-YYYY
+      label: Deadline for Reply (30 Days)
+      description: Calculated as Date of Filing + 30 Days.
+      placeholder: DD-MM-YYYY (e.g. 23-03-2026)
     validations:
       required: false
 
@@ -47,12 +62,19 @@ body:
     validations:
       required: true
 
+  - type: markdown
+    attributes:
+      value: |
+        ---
+        ### 📍 Jurisdiction & Office
+        
   - type: dropdown
     id: jurisdiction
     attributes:
       label: Jurisdiction
       options:
         - Central Government
+        - Kerala
         - Andhra Pradesh
         - Arunachal Pradesh
         - Assam
@@ -69,7 +91,6 @@ body:
         - Jammu and Kashmir
         - Jharkhand
         - Karnataka
-        - Kerala
         - Ladakh
         - Lakshadweep
         - Madhya Pradesh
@@ -97,7 +118,7 @@ body:
     id: district
     attributes:
       label: District
-      placeholder: e.g. Sikkim
+      placeholder: e.g. Thrissur
     validations:
       required: false
 
@@ -105,23 +126,33 @@ body:
     id: office
     attributes:
       label: Public Authority / Office
-      placeholder: e.g. Dept of Revenue
+      placeholder: e.g. Dept of Revenue, Municipal Corporation
     validations:
       required: true
 
+  - type: markdown
+    attributes:
+      value: |
+        ---
+        ### 👤 PIO & Costs
+        
   - type: textarea
     id: pio_contact
     attributes:
       label: PIO Contact Info
-      description: Name, Email, and Phone Number.
-      placeholder: "Name: Mrs. Jane Doe (Assistant Director)\nPhone: +91 98765 43210 \nEmail: jane@cic.gov"
+      description: Name, designation, email, and phone number of the PIO.
+      placeholder: |
+        Name: Mr. Suresh Kumar (Assistant Engineer)
+        Phone: +91 98765 43210
+        Email: pio@dept.gov.in
     validations:
       required: false
 
   - type: input
     id: total_expense
     attributes:
-      label: Total Expense (INR)
+      label: Total Expense (₹)
+      description: Includes Application Fee, IPO, Court Stamps, and Postage.
       placeholder: e.g. 10
     validations:
       required: false
