@@ -1,6 +1,5 @@
 name: New RTI Application
 description: Track an RTI application
-title: ""
 labels: ["02 Filed"]
 body:
   - type: input
