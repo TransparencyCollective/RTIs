@@ -18,6 +18,17 @@ body:
     validations:
       required: true
 
+    - type: dropdown
+    id: mode
+    attributes:
+      label: Mode of Filing
+      options:
+        - Online (RTI Portal)
+        - Offline (Direct Submission)
+        - Speed Post
+    validations:
+      required: true
+
   - type: markdown
     attributes:
       value: |
@@ -41,16 +52,7 @@ body:
     validations:
       required: false
 
-  - type: dropdown
-    id: mode
-    attributes:
-      label: Mode of Filing
-      options:
-        - Online (RTI Portal)
-        - Offline (Direct Submission)
-        - Speed Post
-    validations:
-      required: true
+
 
   - type: markdown
     attributes:
