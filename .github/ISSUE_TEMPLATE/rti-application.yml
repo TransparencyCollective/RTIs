@@ -1,11 +1,10 @@
-
+name: New RTI Application
 labels: ["02 Filed"]
 body:
   - type: markdown
     attributes:
       value: |
-        ## 📝 RTI Application Details
-        Use this form to track a new request.
+
         
   - type: input
     id: rti_id
