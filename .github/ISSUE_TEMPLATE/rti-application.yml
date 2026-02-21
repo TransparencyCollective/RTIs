@@ -15,9 +15,6 @@ body:
     attributes:
       label: Information Requested
       description: Briefly list the questions or documents you are asking for.
-      placeholder: |
-        1. Copy of the attendance register...
-        2. Details of funds allocated...
     validations:
       required: true
 
