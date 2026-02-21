@@ -1,5 +1,4 @@
-name: New RTI Application
-description: File a new Right to Information request
+
 labels: ["02 Filed"]
 body:
   - type: markdown
