@@ -1,7 +1,8 @@
 name: New RTI Application
 description: Track an RTI application
+title: ""
 labels: ["02 Filed"]
-body:   
+body:
   - type: input
     id: rti_id
     attributes:
@@ -26,7 +27,7 @@ body:
       value: |
         ---
         ### 📅 Timeline
-        
+
   - type: input
     id: filing_date
     attributes:
@@ -60,7 +61,7 @@ body:
       value: |
         ---
         ### 📍 Jurisdiction & Office
-        
+
   - type: dropdown
     id: jurisdiction
     attributes:
@@ -127,8 +128,8 @@ body:
     attributes:
       value: |
         ---
-        
-        
+        ### 👤 PIO & Costs
+
   - type: textarea
     id: pio_contact
     attributes:
@@ -140,11 +141,6 @@ body:
         Email: pio@dept.gov.in
     validations:
       required: false
-
-   - type: markdown
-    attributes:
-      value: |
-        ---
 
   - type: input
     id: total_expense
