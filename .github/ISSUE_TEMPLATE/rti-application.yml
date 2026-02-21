@@ -1,11 +1,6 @@
 name: New RTI Application
 labels: ["02 Filed"]
-body:
-  - type: markdown
-    attributes:
-      value: |
-
-        
+body:   
   - type: input
     id: rti_id
     attributes:
