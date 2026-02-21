@@ -67,6 +67,23 @@ We file for each other. To protect the identity of activists in sensitive areas 
 ### Engineering & Analysis
 Build tools to scrape portals, visualize budgets, and automate the pipeline. Deep-dive into raw documents to find the story and help us publish public-interest reports.
 
+---
+
+## Data Usage & Disclaimer
+
+**Source of Data**
+All documents in this repository are obtained legally under the *Right to Information Act, 2005*. They are direct scans of official government responses.
+
+**For Journalists & Researchers**
+* **Verification:** While we ensure the integrity of our digitization process, we recommend cross-referencing significant findings with the original uploaded PDF scans.
+* **Citation:** You are free to use, analyze, and publish this data. We request that you credit "Transparency Collective" and link back to the specific Issue/Case URL where possible.
+* **Redaction Policy:** We attempt to redact personal phone numbers and private addresses of non-officials to protect privacy. If you find unredacted PII that poses a risk, please flag the Issue immediately.
+
+### License & Citation
+This dataset is dedicated to the public domain.
+
+**Suggested Citation:**
+> Transparency Collective. (2026). *[Case Title]*. Retrieved from github.com/TransparencyCollective/RTIs
 
 ---
 
@@ -76,16 +93,7 @@ Build tools to scrape portals, visualize budgets, and automate the pipeline. Dee
 **Neutrality** &nbsp;|&nbsp; **Persistence** &nbsp;|&nbsp; **Open Access**
 
 <br>
-## ⚖️ Data Usage & Disclaimer
 
-**Source of Data:**
-All documents in this repository are obtained legally under the *Right to Information Act, 2005*. They are direct scans of official government responses.
-
-**For Journalists & Researchers:**
-* **Verification:** While we ensure the integrity of our digitization process, we recommend cross-referencing significant findings with the original uploaded PDF scans.
-* **Citation:** You are free to use, analyze, and publish this data. We request that you credit "Transparency Collective" and link back to the specific Issue/Case URL where possible.
-* **Redaction Policy:** We attempt to redact personal phone numbers and private addresses of non-officials to protect privacy. If you find unredacted PII that poses a risk, please flag the Issue immediately.
-<br>
 
 Built for maximum transparency.
 <br>
