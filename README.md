@@ -20,7 +20,6 @@
 
 </div>
 
-
 ---
 
 ## About the Collective
@@ -31,7 +30,7 @@ This repository serves as our **Open Public Record**. It functions as a live tra
 
 <div align="center">
 
-**[🔎 Browse Issues](https://github.com/TransparencyCollective/RTIs/issues) &nbsp;·&nbsp; [📄 File a New Request](https://github.com/TransparencyCollective/RTIs/issues/new/choose) &nbsp;·&nbsp; [📊 View Analytics](https://github.com/TransparencyCollective/RTIs/pulse)**
+**[🔎 Browse Issues](https://github.com/TransparencyCollective/RTIs/issues) &nbsp;·&nbsp; [🗓️ Live Roadmap](https://github.com/orgs/TransparencyCollective/projects/1/views/4) &nbsp;·&nbsp; [📄 File a New Request](https://github.com/TransparencyCollective/RTIs/issues/new/choose) &nbsp;·&nbsp; [📊 View Analytics](https://github.com/TransparencyCollective/RTIs/pulse)**
 
 </div>
 
