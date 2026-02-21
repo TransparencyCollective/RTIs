@@ -112,7 +112,7 @@ body:
     id: district
     attributes:
       label: District
-      placeholder: e.g. Thrissur
+      placeholder: 
     validations:
       required: false
 
@@ -120,7 +120,7 @@ body:
     id: office
     attributes:
       label: Public Authority / Office
-      placeholder: e.g. Dept of Revenue, Municipal Corporation
+      placeholder: e.g., Department of Revenue, New Delhi
     validations:
       required: true
 
