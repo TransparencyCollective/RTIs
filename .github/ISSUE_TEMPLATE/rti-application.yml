@@ -33,6 +33,7 @@ body:
     attributes:
       value: |
         <br>
+        
         ---
         ### 📅 Timeline
 
@@ -57,6 +58,7 @@ body:
     attributes:
       value: |
         <br>
+        
         ---
         ### 📍 Jurisdiction & Office
 
@@ -129,7 +131,7 @@ body:
       description: Name, designation, email, and phone number of the PIO.
       placeholder: |
         Name: Mrs. Jane Doe (Assistant Engineer)
-        Phone: +91 9876543210
+        Phone: +91 98765 43210
         Email: pio@dept.gov.in
     validations:
       required: false
@@ -138,6 +140,7 @@ body:
     attributes:
       value: |
         <br>
+        
         ---
 
   - type: input
