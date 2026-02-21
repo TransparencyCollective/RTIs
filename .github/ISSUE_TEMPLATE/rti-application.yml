@@ -41,16 +41,16 @@ body:
     id: filing_date
     attributes:
       label: Date of Filing
-      placeholder: DD-MM-YYYY (e.g. 21-02-2026)
+      placeholder: dd-mm-yyyy
     validations:
       required: true
 
   - type: input
     id: due_date
     attributes:
-      label: Deadline for Reply (30 Days)
+      label: Deadline for Reply
       description: Calculated as Date of Filing + 30 Days.
-      placeholder: DD-MM-YYYY (e.g. 23-03-2026)
+      placeholder: dd-mm-yyyy 
     validations:
       required: false
 
@@ -68,7 +68,6 @@ body:
       label: Jurisdiction
       options:
         - Central Government
-        - Kerala
         - Andhra Pradesh
         - Arunachal Pradesh
         - Assam
@@ -85,6 +84,7 @@ body:
         - Jammu and Kashmir
         - Jharkhand
         - Karnataka
+        - Kerala
         - Ladakh
         - Lakshadweep
         - Madhya Pradesh
@@ -130,9 +130,9 @@ body:
       label: PIO Contact Info
       description: Name, designation, email, and phone number of the PIO.
       placeholder: |
-        Name: Mrs. Jane Doe (Assistant Engineer)
-        Phone: +91 98765 43210
-        Email: pio@dept.gov.in
+        Name:       (Designation)
+        Phone: 
+        Email: 
     validations:
       required: false
 
@@ -148,6 +148,6 @@ body:
     attributes:
       label: Total Expense (₹)
       description: Includes Application Fee, IPO, Court Stamps, and Postage.
-      placeholder: e.g. 10
+      placeholder: 
     validations:
       required: false
