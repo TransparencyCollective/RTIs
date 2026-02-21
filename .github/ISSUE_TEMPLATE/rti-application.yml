@@ -133,7 +133,7 @@ body:
     attributes:
       value: |
         ---
-        ### 👤 PIO & Costs
+        
         
   - type: textarea
     id: pio_contact
