@@ -24,9 +24,11 @@
 
 ## About the Collective
 
-We are a pan-India non-profit collective of journalists, lawyers, software developers, and concerned citizens. We use the **Right to Information (RTI) Act** as a tool to investigate governance, fight corruption, and promote transparency across the country.
+Public accountability relies on public access, yet government data remains largely inaccessible, locked in physical files, disparate databases, and isolated bureaucratic responses. 
 
-This repository serves as our **Open Public Record**. It functions as a live tracker of every inquiry we file, the government's response, and the subsequent analysis. We operate with strict adherence to journalistic values: unbiased, neutral, and fact-based.
+This repository serves as our **Open Public Record**. It functions as a live database of every Right to Information (RTI) inquiry we file, the government's response, and the subsequent data analysis. By pairing the legal framework of the RTI Act with open-source technology, we extract, digitize, and publish official records, transforming static paperwork into a searchable, open-data ecosystem. 
+
+Our focus is on removing the friction between citizens and public information, enabling anyone to audit governance and identify systemic irregularities at scale. We operate with strict adherence to journalistic values: unbiased, neutral, and fact-based.
 
 <div align="center">
 
@@ -40,13 +42,13 @@ This repository serves as our **Open Public Record**. It functions as a live tra
 
 We do not just file paper; we digitize accountability. We leverage AI and modern software stacks to process the vast amounts of data returned by government offices.
 
-**Digitization & OCR**
+### Digitization & OCR
 We convert physical government scans and hard copies into machine-readable, searchable text. This allows us to index documents that were previously locked in dusty files.
 
-**Anomaly Detection**
+### Anomaly Detection
 Our systems analyze public spending logs, muster rolls, and attendance registers to spot statistical irregularities. We look for patterns that indicate corruption, ghost employees, or fund diversion.
 
-**Cross-Referencing**
+### Cross-Referencing
 We link disconnected datasets across districts and states to identify systemic issues. By connecting the dots between isolated RTI responses, we reveal the larger picture of governance in India.
 
 ---
@@ -71,16 +73,20 @@ Build tools to scrape portals, visualize budgets, and automate the pipeline. Dee
 
 ## Data Usage & Disclaimer
 
-**Source of Data**
+### Source of Data
 All documents in this repository are obtained legally under the *Right to Information Act, 2005*. They are direct scans of official government responses.
 
-**For Journalists & Researchers**
+### Open Data License & Usage
+All records, government responses, and datasets hosted by the Collective are dedicated to the public domain under the **CC0 1.0 Universal** license. 
+
+We strongly encourage journalists, academic researchers, data scientists, and concerned citizens to freely utilize, cross-reference, and publish findings based on this data. A highly effective way to start is by searching our repository for your specific state, district, or town to uncover primary source documents directly relevant to your community.
+
+### Verification & Privacy Policy
 * **Verification:** While we ensure the integrity of our digitization process, we recommend cross-referencing significant findings with the original uploaded PDF scans.
-* **Citation:** You are free to use, analyze, and publish this data. We request that you credit "Transparency Collective" and link back to the specific Issue/Case URL where possible.
 * **Redaction Policy:** We attempt to redact personal phone numbers and private addresses of non-officials to protect privacy. If you find unredacted PII that poses a risk, please flag the Issue immediately.
 
-### License & Citation
-This dataset is dedicated to the public domain.
+### Citation
+You are free to use, analyze, and publish this data. We request that you credit "Transparency Collective" and link back to the specific Issue/Case URL where possible.
 
 **Suggested Citation:**
 > Transparency Collective. (2026). *[Case Title]*. Retrieved from github.com/TransparencyCollective/RTIs
@@ -98,5 +104,3 @@ This dataset is dedicated to the public domain.
 Built for maximum transparency.
 <br>
 © 2026 Transparency Collective. 🇮🇳
-
-</div>
